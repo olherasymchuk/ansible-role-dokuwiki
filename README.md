@@ -29,7 +29,7 @@ Further more, all strings inside the `dokuwiki_additonal_configuration` list mus
 ---
 - hosts: dokuwiki
   roles:
-    - chaos-jetzt.dokuwiki
+    - chaos_jetzt.dokuwiki
   vars:
     dokuwiki_basedir: /var/www/dokuwiki
     dokuwiki_template: bootstrap3
